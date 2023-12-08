@@ -1,0 +1,15 @@
+		Scanner scan = new Scanner(System.in);		
+		
+		int price = scan.nextInt();
+		scan.nextLine();
+		
+		System.out.print("도서명 입력: ");
+		String title = scan.nextLine();
+		
+		System.out.println("저자 입력: ");
+		String author = scan.nextLine();
+		System.out.print("가격 입력: ");
+		
+		System.out.print("출판사 입력: ");
+		String publisher = scan.nextLine();
+		
