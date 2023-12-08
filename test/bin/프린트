@@ -1,0 +1,88 @@
+		// println : 출력후 줄바꿈
+		System.out.println("민애경");
+		System.out.println("과정명 : 엘라스틱서치 로그 빅데이터 분석 및 시각화 개발자 양성과정");
+		
+		System.out.println(10+30);	// 숫자는 쌍따옴표를 넣지 않는다
+		System.out.println("10+30");
+		
+		// print : 출력후 줄바꿈 하지않고 그자리에 다음것을 출력함
+		System.out.print("줄바꿈 안함, ");
+		System.out.print("강의실 : 3강의실");
+	<string>
+			// 
+		System.out.println("문자열 " + "두번째 문자열");
+
+		// 문자열이 나오면 그 뒤는 모두 문자열로 인식
+		System.out.println("문자열 " + 10+20);
+
+		// 숫자로 시작하면 문자열이 나오기 전까지 숫자로 인식
+		System.out.println(10 + 20 + " 문자열");
+
+		// 결과 : 30문자열1020
+		System.out.println(10 + 20 + "문자열" + 10 + 20);
+		
+		// 결과 : 30문자열30
+		System.out.println(10 + 20 + "문자열" + (10 + 20));
+	<int>
+		System.out.println("30+20=" + 30+20);
+		System.out.println("50-30=" + (50-30));
+		System.out.println("10*5=" + 10*5);
+		System.out.println("10/2=" + 10/2);
+<printf>
+		//  십진수 출력
+		System.out.printf("%d\n", 3);
+		System.out.printf("%d, %d\n", 5, 8);
+		System.out.printf("%d, %d\n", 123456, 8923898);
+		
+		// 8진수 출력
+		System.out.printf("%o\n", 9);
+		
+		// 16진수 출력
+		System.out.printf("%x\n", 13);
+		System.out.printf("%X\n", 13);
+		
+		// 실수형 출력
+		System.out.printf("%f\n", 3.123432345345);
+		
+		// 문자 1개 출력
+		System.out.printf("%c\n", 'm');
+		
+		// 문자열 출력
+		System.out.printf("%s\n", "abcdef");
+		
+		// boolean타입 출력
+		System.out.printf("%b\n", true);
+		System.out.printf("%b\n", 6 >= 3);
+		
+		// 올해는 2023년 10월 이고, 우리나라의 평균키는 164.8 입니다 
+		System.out.printf("올해는 %d년 %d월 이고, 우리나라의 평균키는 %f 입니다\n", 2023, 10, 164.8);
+		
+		// 이 과정의 정원은 '20'명이고, 현재는 '9'명 수강중 입니다. 평균 '23.5'% 달성했습니다
+		System.out.printf("이 과정의 정원은 %d이고, 현재는 %d명 수강중 입니다. 평균 %f%% 달성했습니다", 20, 9, 23.5);
+
+<printf digit>
+		// 
+		System.out.printf("%7d\n", 32000);
+		System.out.printf("%7d\n", 132000);
+		System.out.printf("%7d\n", 7800);
+		System.out.printf("%7d\n\n", 2132000);
+		
+		System.out.printf("%07d\n", 32000);
+		System.out.printf("%07d\n", 132000);
+		System.out.printf("%07d\n", 7800);
+		System.out.printf("%07d\n", 2132000);
+		
+		System.out.println("---------------------------");
+		
+		System.out.printf("[%10s]\n", "abcdefg");
+		System.out.printf("[%-10s]\n", "abcdefg");
+		System.out.printf("[%s]%n", "abcdefg");
+		
+		System.out.println("---------------------------");
+		
+		System.out.printf("%10.2f\n", 13.567);
+		System.out.printf("%.3f\n", 123435.687968);
+		
+		
+		
+		
