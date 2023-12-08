@@ -1,0 +1,13 @@
+		int score[] = {100, 97, 58, 72, 94};
+
+		int sum=0;
+
+		for(int i=0; i<score.length; i++) {
+			sum += score[i];
+		}
+		
+		System.out.println("합계는?"  + sum); 	//합계구하기
+
+		double avg = (double)sum / score.length;	//평균구하기
+		System.out.printf("평균: %.2f" , avg);
+
