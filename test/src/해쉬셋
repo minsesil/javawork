@@ -1,0 +1,24 @@
+package set_map02;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Set01 {
+
+	public static void main(String[] args) {
+		
+		//Object -> Set HashSet
+		  Object[] objArr = {"1","2","2","3","3","3","4","4","4","4"};
+		  Set set1 = new HashSet();
+		  
+		  for(Object obj : objArr) {
+			  set1.add(obj);
+		  }
+		  System.out.println("set의 길이:" + set1.size());   //(출력)set의 길이:4
+		  System.out.println(set1);                        //(출력)[1, 2, 3, 4]
+		
+		
+
+	}
+
+}
