@@ -1,0 +1,13 @@
+	 int channelUp() {
+		 channel += 2;
+		 return channel;
+		 
+	 }
+	 int channelDown() {
+		 channel -= 2;
+		 return channel;
+	 }
+	 int volume(int volume) {
+		 this.volume=volume;
+		 return this.volume;
+	 }
