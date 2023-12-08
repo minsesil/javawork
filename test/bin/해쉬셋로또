@@ -1,0 +1,13 @@
+		//로또 Hashset으로 간단하게
+		Set<Integer> set = new HashSet<>();
+
+		while(set.size()<6) {
+			set.add((int)(Math.random()*45)+1);
+		}
+		System.out.println(set);
+		
+		//로또 순서대로 출력
+		//index없기 때문에 할수없음=>List로변경후 사용
+		List list = new ArrayList(set);
+		Collections.sort(list);
+		System.out.println(list);
