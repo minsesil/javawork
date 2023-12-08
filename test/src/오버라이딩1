@@ -1,0 +1,4 @@
+@Override
+public String toString() {
+	return "[title=" + title + ", author=" + author + ", category=" + category + ", price=" + price + "]";
+}
