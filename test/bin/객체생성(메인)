@@ -1,0 +1,6 @@
+		//객체생성
+		String str1 = new String("abc");
+		String str2 = new String("abc");
+		
+		String str3 = "def";
+		String str4 = "Def"
