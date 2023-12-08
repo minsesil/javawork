@@ -1,0 +1,19 @@
+		Scanner scan = new Scanner(System.in);
+		System.out.print("주민번호 입력(-포함) : ");		
+		String jumin = scan.next();
+	
+		char[] origin = new char[jumin.length()]; 	//가로가 붙은건 메소드
+		
+		for(int i=0; i<origin.length; i++) {
+			
+			if(i<6)
+				origin[i] = jumin.charAt(i);
+			else
+				origin[i]='*';
+		}
+		System.out.println(origin);
+
+		
+		
+		
+		
