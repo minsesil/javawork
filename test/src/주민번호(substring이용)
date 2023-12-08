@@ -1,0 +1,12 @@
+		/*예제
+		 * substring으로 주민번호를 사용자로부터 받기(123456-1234567)
+		 * 123456-1****** 출력하기
+		 */
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.print("주민번호 입력(-포함) : ");		
+		String jumin = scan.next();
+		
+		//substring이용
+		String front = jumin.substring(0,8);
+		System.out.println(jumin.substring(0,8) + "******");
