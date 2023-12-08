@@ -1,0 +1,10 @@
+		//도서 제목으로 검색
+		System.out.print("검색할 책 제목 : ");
+		String search = scan.nextLine();
+		
+		if(book1.getTitle().equals(search))
+			System.out.println(book1.information());
+		else if(book2.getTitle().equals(search))
+			System.out.println(book2.information());
+		else
+			System.out.println(book3.information());
