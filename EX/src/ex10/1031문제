@@ -1,0 +1,28 @@
+Member
+- name : String 	    // 회원명
+- age : int 	    	// 회원나이
+- gender : char	    	// 성별
+- couponCount : int  	// 쿠폰개수
++ Member()
++ Member(name:String, age:int, gender:char) 
++ toString() : String
+
+Book
+- title : String 		// 도서명
+- author : String 		// 저자명
+- publisher : String		// 출판사명
++ Book()
++ Book(title:String, author:String, publisher:String)
++ toString() : String
+
+LibraryController
+- mem : Meber
+- bList : ArrayList
++ insertMember(mem:Member) : void
++ myInfo() : Member
++ selectAll() : ArrayList<Book>
++ searchBook(keyword:String) : ArrayList<Book>
++ rentBook(index:int) : int
+
+BookTest
++ main()
