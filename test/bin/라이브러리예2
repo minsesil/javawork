@@ -1,0 +1,43 @@
+package com.addinedu.model.vo;
+
+public class Book {
+
+//필드
+	private String title;
+	private int price;
+	private double discount;
+	private String author;
+	
+//생성자
+	public Book(){		
+	}
+	public Book(String title,int price,double discount,String author){
+		this.title = title;
+		this.price = price;
+		this.discount = discount;
+		this.author = author;
+	}
+	
+//getter setter 메소드 생성
+	public String title() {
+		this.title = title;
+		return this.title;
+	}
+	public int price() {
+		this.price = price;
+		return this.price;
+	}
+	public double discount() {
+		this.discount = discount;
+		return this.discount;
+	}
+	public String author() {
+		this.author = author;
+		return this.author;
+	}
+
+	
+//getter setter
+
+	
+}
