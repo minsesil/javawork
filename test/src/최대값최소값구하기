@@ -1,0 +1,21 @@
+		//2. 최대값, 최소값 구하기
+		int num[] = {65, 26, 59, 98, 3, 73, 16, 84, 36, 8};
+		
+		int max = num[0];
+		int min = num[0];
+		
+		for(int i=1; i<num.length; i++) {
+			if(max < num[i]) {
+				max = num[i];
+			}
+			if(min>num[i]) {
+				min = num[i];
+			}
+		}
+		System.out.println("최대값 :" + max);
+		System.out.println("최소값 :" + min);
+		
+		//인덱스번호에 연산도 가능함
+		int k=1;
+		System.out.println(num[0+k]);
+		
