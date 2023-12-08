@@ -1,0 +1,58 @@
+예외클래스
+
+Runtime Exception 실행예외
+- ClassCastException 클래스를 형변환할수 없을때
+- NullpointException
+	가장 빈번하게 발생하는 실행예외
+- NumberFormatException
+
+
+        try {
+        
+		예외가 발생할수 있는 경우 실행
+
+		}catch(Exception e) {
+			
+		예외가 발생했을때 실행
+		}
+		
+		
+try-catch-finally
+
+return문을만나면 finally{}블록은 실행된다
+
+
+멀티개치
+
+-------------------------------------------
+##Throw - 예외 떠넘기기, 프로그램이 의도되로 돌아가는지
+<개념설명>
+리턴타입 메소드이름(매개변수,...) throws 예외클래스1,예외클래스2,...{
+}
+
+
+ --------------------------------------------
+ ## Throws
+public void methid1(){
+
+	try{
+		method2();
+	}catch(ClassNotFoundException e){
+	//에외처리코드
+	System.out.println("클래스가 존재하지 않는다");
+	}
+ }
+public void methid2()throws ClassNotFoundException {
+  Class clazz = Class.forName("jaa.lang.String2");
+ }
+ 
+ try catch를 안넣으면 오류
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
