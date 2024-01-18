@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_print/01_print.iml" filepath="$PROJECT_DIR$/01_print/01_print.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_variable/02_variable.iml" filepath="$PROJECT_DIR$/02_variable/02_variable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_operation/03_operation.iml" filepath="$PROJECT_DIR$/03_operation/03_operation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_conditional/04_conditional.iml" filepath="$PROJECT_DIR$/04_conditional/04_conditional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_String/05_String.iml" filepath="$PROJECT_DIR$/05_String/05_String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_Array/06_Array.iml" filepath="$PROJECT_DIR$/06_Array/06_Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_object/07_object.iml" filepath="$PROJECT_DIR$/07_object/07_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_objectArray/08_objectArray.iml" filepath="$PROJECT_DIR$/08_objectArray/08_objectArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_inheritance/09_inheritance.iml" filepath="$PROJECT_DIR$/09_inheritance/09_inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10_abstract/10_abstract.iml" filepath="$PROJECT_DIR$/10_abstract/10_abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_exception/11_exception.iml" filepath="$PROJECT_DIR$/11_exception/11_exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_java_lang/12_java_lang.iml" filepath="$PROJECT_DIR$/12_java_lang/12_java_lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_java.util/13_java.util.iml" filepath="$PROJECT_DIR$/13_java.util/13_java.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14_Collection/14_Collection.iml" filepath="$PROJECT_DIR$/14_Collection/14_Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_inputOutput/15_inputOutput.iml" filepath="$PROJECT_DIR$/15_inputOutput/15_inputOutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX/EX.iml" filepath="$PROJECT_DIR$/EX/EX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWord/HelloWord.iml" filepath="$PROJECT_DIR$/HelloWord/HelloWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" filepath="$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1107/test1107.iml" filepath="$PROJECT_DIR$/test1107/test1107.iml" />
+    </modules>
+  </component>
+</project>
