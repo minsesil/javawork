@@ -6,6 +6,7 @@ public class Ch02_double {
 		double dou1 = 12.345;
 		double dou2 = 46.2839;
 		System.out.println(dou1 + ", " + dou2);
+
 		
 		/* int / int = int
 		 * double / double = double
